@@ -70,14 +70,14 @@ a{
     font-size: 25px;
     font-weight: bold;
 }
-/* .number__subblock{
+.number__subblock{
     border: 1px solid rgba(128, 128, 128, 0.336);
     width: 250px;
     margin: 0 auto;
     border-radius: 15px;
     box-shadow: inset -5px -5px 5px 0 rgba(221, 216, 216, 0.774), 
     inset 5px 5px 5px 0 rgba(221, 216, 216, 0.774);
-} */
+}
 
 
 @media(max-width:470px){
