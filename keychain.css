@@ -5,12 +5,16 @@ a{
     padding: 0;
     text-align: center;
 }
+div{
+    padding: 0;
+    margin: 0;
+}
 
 .main__container{
     margin: 50px auto;
     border: 2px solid grey;
     width: 450px;
-    height: 600px;
+    height: 650px;
     border-radius: 10px;
 }
 .content__block{
@@ -68,20 +72,54 @@ a{
 
 
 .number__block{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 260px;
     margin-top: 30px;
     text-align: center;
     font-size: 25px;
     font-weight: bold;
 }
+.facebook__link-block img{
+    width: 40px;
+}
 .number__subblock{
     border: 1px solid rgba(128, 128, 128, 0.336);
-    width: 250px;
-    margin: 0 auto;
+    width: 200px;
     border-radius: 15px;
     box-shadow: inset -5px -5px 5px 0 rgba(221, 216, 216, 0.774), 
     inset 5px 5px 5px 0 rgba(221, 216, 216, 0.774);
 }
 
+
+.links__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 35px;
+    max-width: 320px;
+}
+.link{
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    border-radius: 15px;
+}
+.link + .link{
+    margin-left: 10px;
+}
+.rent-car{
+    background-color: green;
+}
+.apartment{
+    background-color: orange;
+}
+.self-storage{
+    background-color: blue;
+}
 
 @media(max-width:470px){
     .main__container{
