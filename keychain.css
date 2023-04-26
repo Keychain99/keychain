@@ -103,14 +103,19 @@ div{
     max-width: 320px;
 }
 .link{
-    height: 25px;
+    height: 35px;
     width: 100px;
-    text-align: center;
     border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#FFFF;
+    box-shadow:inset -5px -5px 5px 0 rgba(80, 78, 78, 0.774), 
+    inset 5px 5px 5px 0 rgba(80, 78, 78, 0.774);
 }
 .link + .link{
     margin-left: 10px;
-}
+}   
 .rent-car{
     background-color: green;
 }
@@ -132,5 +137,10 @@ div{
     }
     .title__block{
         max-width: 325px;
+    }
+}
+@media(max-width:370px){
+    .main__container{
+        max-width: 330px;
     }
 }
