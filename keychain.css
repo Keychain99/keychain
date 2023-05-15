@@ -92,6 +92,12 @@ div{
     border: 2px solid grey;
     border-radius: 10px;
     width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.modal__content img{
+    width: 25px;
+    height: 25px;
 }
 .modal__insta-link{
     margin-top: 10px;
