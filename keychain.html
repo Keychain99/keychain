@@ -11,6 +11,18 @@
 
 <body>
     <div class="main__container">
+        <div class="modal__container" id='modal'>
+            <div class="modal__content">
+                <div>To start the bot type: /go</div>
+                <div>Чтобы запустить бота: /go</div>
+                <div>Da biste pokrenuli bot enter: /go</div>
+                <div class="modal__insta-link">
+                    <a href="https://ig.me/m/lostandfoundmne">
+                        <button>Instagram</button>
+                    </a>
+                </div>
+            </div>
+        </div>
         <div class="content__block">
             <div class="title__block">
                 <div class="img__block"><img src="./images/sherlock.jpg" alt="search"></div>
@@ -41,11 +53,9 @@
                     </div>
                 </div>
                 <div class="icon__subcontainer">
-                    <div class="item__block">
-                        <a href="https://ig.me/m/lostandfoundmne">
+                    <div class="item__block" id='modal__activate'>
                             <img src="./images/insta.png" alt="Instagram">
                             <div>Instagram</div>
-                        </a>
                     </div>
                     <div class="item__block">
                         <img src="./images/whatsapp.png" alt="WhatsApp">
@@ -69,6 +79,7 @@
             <div class="link self-storage"><span>Self Storage</span></div>
         </div>
     </div>
+    <script src='/keychain.js'></script>
 </body>
 
 </html>
