@@ -11,7 +11,7 @@ div{
 }
 
 .main__container{
-    margin: 50px auto;
+    margin: 25px auto;
     border: 2px solid grey;
     width: 450px;
     height: 650px;
@@ -37,21 +37,25 @@ div{
 .title{
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .subtitle__block{
     margin-top: 25px;
     text-align: center;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
 .icon__container{
-    max-width: 250px;
+    max-width: 235px;
+    margin: 0 auto;
+}
+.icon__subcontainer-one{
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
 }
 .item__block{
     height: 100px;
@@ -65,13 +69,18 @@ div{
     margin-top: 25px;
     box-shadow: inset -5px -5px 5px 0 rgba(221, 216, 216, 0.774), 
     inset 5px 5px 5px 0 rgba(221, 216, 216, 0.774);
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.insta{
+    margin: 20px auto;
 }
 .item__block img{
     width: 50px;
     height: 50px;
     margin-bottom: 10px;
 }
-
 
 .modal__container{
     display: none;
@@ -129,6 +138,7 @@ div{
     border-radius: 15px;
     box-shadow: inset -5px -5px 5px 0 rgba(221, 216, 216, 0.774), 
     inset 5px 5px 5px 0 rgba(221, 216, 216, 0.774);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -139,6 +149,7 @@ div{
     margin: 0 auto;
     margin-top: 35px;
     max-width: 370px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .link{
     height: 35px;
